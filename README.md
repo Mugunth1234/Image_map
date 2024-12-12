@@ -26,156 +26,209 @@ Execute the programs and publish them.
 map.html
 ```
 <html>
-<head>
-<title>MY CITY</title>
-</head>
-<body>
-<h1 align="center">
-<font color="black"><b>MELUR</b></font>
-</h1>
-<h3 align="center">
-<font color="green"><b>MUGUNTHAN(24005593)</b></font>
-</h3>
-<center>
-<img src="Screenshot 2024-03-24 144347.png" usemap="#image-map">
+    <head>
+        <style>
+            body {
+              
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            </style>s
+    </head>
+    <body> 
+        <map name="image-map">    
+         <area shape="circle" coords="1318,230,72" title="MEENAKSHI SUNDARESHWARAR TEMPLE"  alt="temple"  href="temple.html"  >
 
-<map name="image-map">
-    <area target="_self" alt="Spartanz Fitness" title="Spartanz Fitness" href="fitness.html" coords="657,687,483,572" shape="rect">
-    <area target="_self" alt="Government Hospital" title="Government Hospital" href="hospital.html" coords="464,142,642,231" shape="rect">
-    <area target="_self" alt="RTO Office Melur" title="RTO Office Melur" href="office.html" coords="1154,644,69" shape="circle">
-    <area target="_self" alt="Ganesh Theatre Complex" title="Ganesh Theatre Complex" href="theatre.html" coords="723,299,840,380" shape="rect">
-    <area target="_self" alt="Poorvika Mobiles Melur" title="Poorvika Mobiles Melur" href="mobiles.html" coords="509,322,661,430" shape="rect">
-</map>
-</center>
-</body>
+         <area shape="circle" coords="589,448,52"  title="KAMARAJAR UNIVERSITY" alt="university"  href="mku.html"  >
+
+         <area shape="circle" coords="1531,879,59" title="KEELADI MUSEUM" alt="museum" href="museum.html"  >
+
+         <area shape="circle" coords="1026,1014,71" title="AIRPORT" alt="airport" href="airport.html"  >
+
+         <area shape="circle" coords="927,788,68" title="MURUGAN TEMPLE" alt="murugan"  href="murugan.html" >
+
+         <area shape="circle" coords="737,659,65" title="ANNA UNIVERSITY" alt="anna"  href="aum.html"  >
+
+        </map>
+        <img src="map1.png" usemap="#image-map" alt="Map"> 
+
+    </body>
 </html>
+```
 
-finess.html
-
+airport.html
+```
 <html>
-<head>
-<title>MY NATIVE</title>
-</head>
-<body bgcolor="yellow">
-<h1 align="center">
-<font color="silver"><b>MELUR</b></font>
-</h1>
-<h3 align="center">
-<font color="red"><b>Spartanz Fitness</b></font>
-</h3>
-<hr size="3" color="green">
-<p align="justify">
-<font face="Georgia" size="6">
-  It is located in melur,madursi district. At Thiruvathoor Road Near Old EB Office.
-   Opposite to Meenakshi amma illam.
-   </font>
-</p>
-</body>
+    <head>
+
+    </head>
+    <body>
+        <center ><h1 style="font-family: Kristen ITC;"><b>MADURAI AIRPORT</b></h1></center>
+        <center><img src="airport.webp"  width="1080px" height="580px"></center>
+        <p style="font-size: 20px; font-family:'Sitka Display Semibold'; text-align: left;">
+            *** Madurai airfield was first used by the Royal Air Force in World War II in 1942. 
+            The first passenger flight was a Fokker Friendship aircraft on the Madras – Madurai – Thiruvananthapuram – Madurai – Madras route in 1956.
+            It was identified as one of 35 non-metro airports for modernisation, and thus the new integrated terminal building was inaugurated on 12 September 2010.<br><br>
+            
+            *** The airport was notified as customs airport. The notification, issued on 31 December 2011, came into effect from 1 January 2012. 
+            Two chartered flights from Malaysia landed at the airport on 25 August 2012, making them the first international aircraft to land in the city. 
+            The first commercial international flight began on 20 September 2012 by SpiceJet commencing its maiden service to Colombo.<br><br>
+            
+            *** To boost exports from Madurai and its surrounding districts, the Department of Revenue under the Union Ministry of Finance issued a notification dated 28 May 2013 permitting the airport to handle cargo. 
+            The cargo terminal became operational from 15 December 2017.[13] From 17 October 2018, E-visa on arrival facility has been introduced in Madurai airport which sets a base for a proper international airport infrastructure at Madurai which boosted tourism at Madurai. 
+            Since Madurai airport is not in a part of the BASA Agreement, it is difficult to operate international air carriers from Madurai to various countries. 
+            The airport also started to function 24×7 from 1st October 2024.<br><br>
+
+            *** Airports Authority of India (AAI) is considering providing a new terminal building for Madurai Airport in view of increased passenger traffic.
+            The AAI Regional Executive Director said that performance of the airport on all fronts was good, especially the 35% growth in passenger movement reported in the year 2016-2017. 
+            The feasibility of expanding the terminal building is being studied. If that is not possible, a new building will be constructed, which is already in the airport master plan.<br><br>
+        </p>
+        
+    </body>
 </html>
+```
 
-hospital.html
-
+anna universiity
+```
 <html>
-<head>
-<title>MY NATIVE</title>
-</head>
-<body bgcolor="blue">
-<h1 align="center">
-<font color="white"><b>MELUR</b></font>
-</h1>
-<h3 align="center">
-<font color="pink"><b>Goverment Hospital</b></font>
-</h3>
-<hr size="3" color="black">
-<p align="justify">
-<font face="Georgia" size="6">
-It is located near railways station,Madurai Main Rd; Azhagarkovil Road, Nagaikadai Bazaar
- Opposite To Taluk Office madurai district.
-It is popular for cardiology. It is Sub-District Hospital.
-</font>
-</p>
-</body>
-</html>
+    <head>
 
-mobiles.html
-
-<html>
-<head>
-<title>MY NATIVE</title>
-</head>
-<body bgcolor="green">
-<h1 align="center">
-<font color="brown"><b>MADURAI</b></font>
-</h1>
-<h3 align="center">
-<font color="yellow"><b>Poorvika Mobiles Melur</b></font>
-</h3>
-<hr size="4" color="black">
-<p align="justify">
-<font face="Georgia" size="6">
-    Poorvika sells a wide category of devices in its showrooms and Online portal.
-   It is located at Trichy Main Rd, near Bus Stand,in Arittapatti,Melur, Tamil Nadu
-</font>
-</p>
-</body>
-</html>
-
-office.html
-
-<html>
-<head>
-<title>MY NATIVE</title>
-</head>
-<body bgcolor="orange">
-<h1 align="center">
-<font color="white"><b>MELUR</b></font>
-</h1>
-<h3 align="center">
-<font color="pink"><b>RTO office Melur</b></font>
-</h3>
-<hr size="4" color="white">
-<p align="justify">
-<font face="Georgia" size="6">
-    The RTO Office in Melur, Madurai offers a wide range of services related to vehicle registration, licensing and  t
-    the Melur RTO is also responsible for collection of taxes, issuing permits. 
-    It is located at Kela St, Kannakudi, Lalkudi,melur at madurai distict.
-</font>
-</p>
-</body>
-</html>
-
-theatre.html
-
-<html>
-<head>
-<title>MY NATIVE</title>
-</head>
-<body bgcolor="red">
-<h1 align="center">
-<font color="blue"><b>MELUR</b></font>
-</h1>
-<h3 align="center">
-<font color="grey"><b>Ganesh Theatre</b></font>
-</h3>
-<hr size="3" color="pink">
-<p align="justify">
-<font face="Georgia" size="6">
-    Melur Ganesh Complex A C Dts 2k 3d is a chain of theatres in India that exhibit a myriad of movies around the year. 
-    Cinema featuring a lineup of Tamil films in 3 air-conditioned theatres, plus a canteen.
-    Ganesh Theatre Complex is situated southwest of Granite quarry, and northwest of Vellalore Government Hospital,at melur,madurai district.
-    </font>
-</p>
-</body>
+    </head>
+    <body>
+        <center ><h1 style="font-family: Kristen ITC;"><b>ANNA UNIVERSITY</b></h1></center>
+        <center><img src="aurcmm.jpeg"  width="1080px" height="580px"></center>
+        <p style="font-size: 20px; font-family:'Sitka Display Semibold'; text-align: left;">
+            *** Anna University Chennai - Regional Campus, Madurai formerly Anna University of Technology, Madurai is a technological university located at Madurai, Tamil Nadu, India. 
+            It was established on 2010 as a result of a decision to split Anna University into six universities, namely, Anna University, Chennai, Anna University, Chennai - Taramani Campus, Anna University Chennai - Regional Office, Tiruchirappalli,
+             Anna University Chennai - Regional Office, Coimbatore, Anna University Chennai - Regional Office, Tirunelveli and Anna University Chennai - Regional Office, Madurai.<br><br>
+           
+            *** It is an accredited university with powers to grant affiliations to colleges and universities conducting graduate and post graduate studies, as well as diploma courses, and is also recognized by the University Grants Commission.
+            Dr. R. Murugesan was the founding vice-chancellor and led a leadership team consisting of Dr. E.B. Perumal Pillai as the first registrar, Dr. G.Elangovan as controller of examinations), Dr. V. Malathi as director of academics, 
+            Dr. R. Subramaniam Pillai as director of admissions, Dr. T. Chitravel as director of research), Dr. S. Srinivasan as director of affiliations) and R. Sivaraman as deputy registrar administration.<br><br>
+            
+            *** The university had 46 affiliated colleges and three university campuses, at Madurai, Ramanathapuram and Dindigul.
+            After functioning for a brief period inside the premises of Madurai Kamaraj University, it is presently located on National Highway 7 at a sprawling campus at the serene and historic location of Keelakuilkudi in Madurai. 
+            Located on a hillock adjacent to the world famous Samanar Hills, it offers the right ambiance for the academic environment.<br><br>
+            
+            *** On 14 September 2011 a bill was passed to merge back the universities. Though the university was merged with Anna University Chennai, it still functions as the regional campus and offers BTech and MTech degree programmes.<br><br>
+        </p>
+        
+    </body>
 </html>
 
 ```
+kamarajar university.html
+```
+<html>
+    <head>
+
+    </head>
+    <body>
+        <center ><h1 style="font-family: Kristen ITC;"><b>MADURAI KAMARAJAR UNIVERSITY</b></h1></center>
+        <center><img src="mku.webp"  width="1080px" height="580px"></center>
+        <p style="font-size: 20px; font-family:'Sitka Display Semibold'; text-align: left;">
+            *** Established in 1966, Madurai Kamaraj University as a State University attained the status of University with Potential for Excellence for ‘Teaching, Research and Outreach’ in 2007. 
+            The University is governed by Acts, Statutes, Ordinances and Regulations. 
+            The University has been accredited with “A++” grade in the 4th cycle (2021) by NAAC.
+            In the 2017 Golden Jubilee Convocation, 809 Ph.D. Scholars were awarded doctoral degrees.
+            In the "SWACHHTA" Ranking of Higher Educational Institutions in the Country, the HRD Ministry awarded Second Rank to the University in the category of Government Institutions on 14th September 2017.<br><br>
+
+            *** The University is in its untiring journey in search of knowledge creation and dissemination that resulted in recognitions by its faculty members which include 4 Shanti Swarup Bhatnagar aw ards, 8 FNAs, 8 FNAScs, 11 FAScs, 2 TWAS, a Senior Spallanzani Fellow and 16 Tamil Nadu Scientist Awards.
+            Fourteen faculty of the University have been elevated as Vice-Chancellors including the present Vice-Chancellor.
+            Several Alumni are IAS/IPS/IRS officers.
+            The University with 20 Schools comprising 77 Departments offers 44 Post Graduate, 40 M.Phil., 57 Ph.D programmes and 17 diploma/ P.G. diploma/ certificate courses has produced about one crore graduates in the past 50 years.<br><br>
+
+            *** Currently, a total of 4650 UG/PG students and research scholars are on the roll. All the courses in the University follow Choice Based Credit System (CBCS) and there is an inbuilt provision for lateral and vertical mobility.
+            Twelve schools are recognized under UGC with Special Assistance Programmes (SAP) such as CAS, DSA and DRS at various phases. Department of Science and Technology (DST), New Delhi has sanctioned 9 crores in the first phase under PURSE programme that supported seven science Schools. 
+            In the second phase, 7.5 crores have been sanctioned for the period 2017-2021. Schools of Biological Sciences (SBS), Biotechnology, Chemistry, Physics and Mathematics are supported with DST-FIST programme. The funding agencies such as UGC, CSIR, DST, DBT, DAE-BRNS, MoEF, MoES, ICMR, ICSSR, DRDO, ICAR, MHRD etc.<br><br>
+   
+            *** Unique Centres such as Centre for Excellence in Genomic Sciences, Networking Resource Centre in Biological Sciences, Centre of Excellence in Innovations in Biotechnology, Unit of Excellence in Cancer Genetics, Centre for Biodiversity & Forest Studies and Regional Solar Energy Testing Centre adds impetus to the research facility of the University.
+            School of Biological Sciences has received 10 crores for the second phase of NRCBS (2017-2022). Currently 160 individual research projects are being carried out with an outlay of 11.22 crores. Rashtriya Uchchatar Shiksha Abhiyan (RUSA) has sanctioned 20 crores and has released a sum of 10 crores as first installment for improving the infrastructure.
+            Works are in progress to upgrade 82 conventional class rooms as ICT/Wi-fi enabled smart class rooms and to create a centralized 300 seated language and computer lab under RUSA fund. Fitness centres are established in all the 8 hostels.<br><br>
+            
+        </p>
+        
+    </body>
+</html>
+```
+KEELADI MUSEUM.html
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <center ><h1 style="font-family: Kristen ITC;"><b>KEELADI MUSEUM</b></h1></center>
+        <center><img src="km.jpg"  width="1080px" height="580px"></center>
+        <p style="font-size: 20px; font-family:'Sitka Display Semibold'; text-align: left;">
+            *** Three thousand years old Tamils habitation was found in the excavations.
+            After that Tamil Nadu Archaeology Department started excavation work from the 4th to 8th phase from 2017 to 2019. 
+            A variety of items were found in it.<br><br>
+
+            *** The Keeladi excavations are archaeological excavations that have been taking place in the village of Keeladi, located in the southern Indian state of Tamil Nadu, since 2014. 
+            The excavations have been carried out by the Archaeological Survey of India (ASI) and have unearthed significant evidence of an ancient urban settlement.<br><br>
+
+            *** The Keeladi site dates back to the Sangam period, considered the golden age of Tamil literature and lasted from the 3rd century BCE to the 3rd century CE. 
+            The excavations have revealed a complex urban settlement that included residential areas, streets, public buildings, and water management systems.<br><br>
+
+            *** Some crucial findings from the Keeladi excavations include beads, iron tools, terracotta figurines, expensive gold ornaments, copper articles, iron tool parts, flint pieces, round chips, flint earrings,
+             glass and precious bell stones (agate, sapphire, crystal), earthenware shells, revoluted pottery, old men's talismans etc. 
+            These artefacts provide valuable insights into the life and culture of the people who lived in the area during the Sangam period. <br><br>
+
+            *** It has been established that the Tamils inhabited the area with an ancient urban civilisation. 
+            The period between the 6th century BC and the 1st and 2nd century BC has been confirmed by the organic samples of material recovered in Phase 4 excavations.
+            Scratches, symbols and patterns were found on the pottery found here. All these are engraved before and after firing. 
+            Over 50 pieces of clay inscribed with Tamil Brahmi characters have been recovered.<br><br>
+
+            *** During each excavation phase, more than 3 thousand objects were taken by the archaeology department. 
+            In this, 5,820 items were found by the archaeology department only during the 4th phase of excavation. So far, 8 phases of excavations have been completed. 
+            All the finds are examples of the excellence of the ancient Tamils in urban civilisation<br><br>
+        </p>
+        
+    </body>
+</html>
+```
+
+temple.html
+```
+<html>
+    <head>
+
+    </head>
+    <body>
+        <center ><h1 style="font-family: Kristen ITC;"><b>MADURAI MEENAKSHI SUNDARESWARAR TEMPLE</b></h1></center>
+        <center><img src="temple.png"  width="1080px" height="580px"></center>
+        <p style="font-size: 20px; font-family:'Sitka Display Semibold'; text-align: left;">
+             **  Meenakshi Amman Temple, temple complex in Madurai, Tamil Nadu state, India, said to originally date as far back as the 4th century CE but in its present form built in the 16th–17th centuries.
+               According to Hindu legend, the god Shiva came to Madurai in the form of Sundareswarar to marry Meenakshi, the daughter of the Pandya ruler; Meenakshi was a manifestation of the goddess Parvati.
+               The Meenakshi Amman Temple is dedicated to their union. <br><br>
+            **   The massive temple is enclosed by high walls entered through soaring gopuras, or gateway towers.
+               Inside are colonnades, columned mandapas (halls, some of which were used for shops, storerooms, and stables), a sacred tank, lesser shrines, and, at the centre, the two main shrines to Sundareswarar and Meenakshi. 
+               The gopuras are some of the most elaborately decorated in India. <br><br>
+             **  Brightly painted, they are completely covered with figures of divinities, celestial beings, monster masks, guardians, and animal mounts. The tallest of the 14, the southern gopura, rises to more than 170 feet (52 m).
+               Within the temple complex is the magnificent Aiyaram Kal Mandapa (Thousand-Pillar Hall), which in fact contains 985 columns carved with divinities, female musicians, and attendant figures.<br><br>
+             **  The Pottamarai Kulam (Golden Lotus Pond), a large pool where devotees can bathe in holy water, is surrounded by a colonnade whose walls are decorated with murals depicting the miracles Shiva performed in Madurai.
+               A doorway in the west wall leads to the Meenakshi shrine. This stands in its own enclosure, within which are several subsidiary shrines, together with the bedchamber, where the image of Sundareswarar is brought every night from its own shrine.<br><br>
+        </p>
+        
+    </body>
+</html>
+
+```
+
+
 # OUTPUT
-![Screenshot 2024-12-05 143939](https://github.com/user-attachments/assets/7de17458-40b6-4351-a1bb-56259366c958)
-![Screenshot 2024-12-05 143932](https://github.com/user-attachments/assets/bf9efcf6-0fb9-4277-8ce6-db9db63dd4c1)
-![Screenshot 2024-12-05 143914](https://github.com/user-attachments/assets/c431f4b0-29e5-4242-866d-a3e441e602d3)
-![Screenshot 2024-12-05 143906](https://github.com/user-attachments/assets/ea5c9208-9260-4c5a-a081-8346e2ea798f)
-![Screenshot 2024-12-05 143857](https://github.com/user-attachments/assets/40253607-8d54-427e-bbe6-f197643f7320)
-![Screenshot 2024-12-05 143922](https://github.com/user-attachments/assets/40b5f8c4-8852-4756-97f3-217f39f922f5)
+![Screenshot 2024-12-12 221156](https://github.com/user-attachments/assets/5f030a5f-a7f6-47bc-86de-76270262601d)
+![Screenshot 2024-12-12 221343](https://github.com/user-attachments/assets/af1bbb9b-3ffa-47c9-8052-51b61934e066)
+![Screenshot 2024-12-12 221256](https://github.com/user-attachments/assets/5637db75-6102-43ce-9604-faec99016438)
+![Screenshot 2024-12-12 221237](https://github.com/user-attachments/assets/44fd20e4-be96-476c-85f5-d9aa522384fe)
+
+![Screenshot 2024-12-12 221737](https://github.com/user-attachments/assets/a88e7f17-b445-473f-84f0-b31eb304dce9)
+![Screenshot 2024-12-12 221219](https://github.com/user-attachments/assets/b83b096e-2739-4150-b543-68157b65030f)
+
+
+
 
 
 
